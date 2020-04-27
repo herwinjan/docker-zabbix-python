@@ -1,4 +1,4 @@
-FROM zabbix/zabbix-server-mysql:alpine-4.4-latest
+FROM zabbix/zabbix-server-mysql:ubuntu-4.4-latest
 MAINTAINER Sebastian Plocek <sebastian@plocek.at>
 
 # Update
