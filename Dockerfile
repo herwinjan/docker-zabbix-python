@@ -9,4 +9,4 @@ RUN apt-get update && apt-get install -y \
 # Install dependencies
 RUN pip install \
   requests \
-  --upgrade pip
+  --upgrade pip && pip install python-pushover
