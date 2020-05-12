@@ -3,11 +3,11 @@ MAINTAINER Sebastian Plocek <sebastian@plocek.at>
 USER root
 
 # Update
-RUN sudo apt-get update && sudo apt-get install -y \
+RUN apt-get update && apt-get install -y \
   curl \
   python-pip
 
 # Install dependencies
-RUN sudo pip install \
+RUN pip install \
   requests \
   --upgrade pip && pip install python-pushover
