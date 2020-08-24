@@ -5,7 +5,7 @@ USER root
 # Update
 RUN apt-get update && apt-get install -y \
   curl \
-  python-pip
+  python3-pip
 
 # Install dependencies
 RUN pip install \
