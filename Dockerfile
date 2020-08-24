@@ -8,6 +8,6 @@ RUN apt-get update && apt-get install -y \
   python3-pip
 
 # Install dependencies
-RUN pip install \
+RUN pip3 install \
   requests \
-  --upgrade pip && pip install python-pushover
+  --upgrade pip3 && pip3 install python-pushover
