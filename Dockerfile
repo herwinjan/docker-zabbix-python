@@ -1,4 +1,4 @@
-FROM zabbix/zabbix-server-mysql:ubuntu-5.2-latest
+FROM zabbix/zabbix-server-mysql:ubuntu-latest
 MAINTAINER Sebastian Plocek <sebastian@plocek.at>
 USER root
 
